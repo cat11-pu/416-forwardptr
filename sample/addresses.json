@@ -1,0 +1,21 @@
+{
+  "budget": 3,
+  "hops": 3,
+  "bad_name_code": "E_BAD_NAME",
+  "bad_size_code": "E_BAD_SIZE",
+  "dup_code": "E_DUP",
+  "no_name_code": "E_NO_NAME",
+  "no_addr_code": "E_NO_ADDR",
+  "deep_code": "E_TOO_DEEP",
+  "event_error_code": "E_BAD_EVENT",
+  "state": { "slots": [], "forwards": [], "reads": [], "ledger": [], "applied": [] },
+  "events": [
+    { "id": 1, "kind": "put", "name": "a", "size": 4 },
+    { "id": 2, "kind": "put", "name": "b", "size": 2 },
+    { "id": 3, "kind": "move", "name": "a" },
+    { "id": 4, "kind": "get", "addr": 1 },
+    { "id": 5, "kind": "move", "name": "a" },
+    { "id": 6, "kind": "move", "name": "a" },
+    { "id": 7, "kind": "get", "addr": 1 }
+  ]
+}
